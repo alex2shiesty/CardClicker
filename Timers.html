@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>3.12 Timers Practice</title>
+    <title>3.12 Timers Practice 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<button id="remove">Watch Me Disappear</button>
 
+<script>
+    const remove = document.getElementById('remove');
+
+    remove.addEventListener('click', function(){
+        setTimeout(function (){
+            remove.remove()
+        }, 3000);
+    })
+</script>
 </body>
 </html>

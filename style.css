@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #f3f4f6;
 }
 
@@ -13,7 +14,7 @@ label {
     color: #374151;
 }
 
-input[type="text"], textarea, select{
+input[type="text"], textarea, select {
     font-size: .875rem;
     line-height: 1.25rem;
     border: 1px solid #d1d5db;
@@ -22,7 +23,8 @@ input[type="text"], textarea, select{
     margin-bottom: 12px;
     color: #374151;
 }
-fieldset{
+
+fieldset {
     border: 1px solid #d1d5db;
     border-radius: 6px;
     width: fit-content;
@@ -31,12 +33,12 @@ fieldset{
 }
 
 
-fieldset legend{
+fieldset legend {
     font-size: 14px;
     color: #374151;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     display: inline-block;
 }
 
@@ -44,11 +46,11 @@ input[type="checkbox"] ~ label, input[type="radio"] ~ label {
     display: inline;
 }
 
-section{
+section {
     margin-bottom: 16px;
 }
 
-section header{
+section header {
     margin-bottom: 8px;
 }
 
@@ -58,19 +60,20 @@ section header{
 }
 
 
-.container{
+.container {
     max-width: 1300px;
     margin: 0 auto;
 }
 
-.content{
-    box-shadow: 0 1px 3px 0 rgba(0 0 0  0.1), 0 1px 2px -1px rgba(0 0 0  0.1);
+.content {
+    box-shadow: 0 1px 3px 0 rgba(0 0 0 0.1), 0 1px 2px -1px rgba(0 0 0 0.1);
     background: white;
     padding: 20px;
     border-radius: 12px;
     width: 500px;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
